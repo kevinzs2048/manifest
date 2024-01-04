@@ -12,7 +12,7 @@
         <project path="optee_client"         name="OP-TEE/optee_client.git" />
         <project path="optee_os"             name="OP-TEE/optee_os.git" />
         <project path="optee_test"           name="OP-TEE/optee_test.git" />
-	<project path="build"                name="build.git" revision="v1.0-eac2" remote="clo">
+	<project path="build"                name="build.git" revision="v1.0-eac5" remote="clo">
                 <linkfile src="qemu_v8.mk" dest="build/Makefile" />
         </project>
 
@@ -23,13 +23,13 @@
         <!-- Misc gits -->
         <project path="buildroot"            name="buildroot/buildroot.git"               revision="1e39222b0cd334129b77f1f41f8923de4d573ad4" clone-depth="1" />
         <project path="edk2"		     name="tianocore/edk2.git"			  revision="326b9e1d815c4ae4b0b207fcb0bfa16864af5400" sync-s="true" />
-	<project path="linux"                name="linux-arm/linux-cca"			  revision="cca-full/rmm-v1.0-eac2" remote="gla" clone-depth="1" />
-	<project path="kvmtool"		     name="linux-arm/kvmtool-cca"		  revision="cca/rmm-v1.0-eac2" remote="gla" />
+	<project path="linux"                name="linux-arm/linux-cca"			  revision="cca-full/rmm-v1.0-eac5" remote="gla" clone-depth="1" />
+	<project path="kvmtool"		     name="linux-arm/kvmtool-cca"		  revision="cca/rmm-v1.0-eac5" remote="gla" />
         <project path="mbedtls"              name="Mbed-TLS/mbedtls.git"                   revision="refs/tags/mbedtls-2.26.0" clone-depth="1" />
         <project path="optee_rust"           name="apache/incubator-teaclave-trustzone-sdk.git"            revision="4031e7282a8f398f54faa19acb2b84fab05de877" />
-	<project path="qemu"                 name="qemu"				  revision="cca/rmm-v1.0-eac2" remote="jpb" />
-        <project path="trusted-firmware-a"   name="tf-a"				  revision="qemu-rme" remote="jpb" />
+	<project path="qemu"                 name="qemu"				  revision="cca/rmm-v1.0-eac5" remote="jpb" />
+        <project path="trusted-firmware-a"   name="tf-a"				  revision="cca/rmm-v1.0-eac5" remote="jpb" />
         <project path="hafnium"   name="hafnium/hafnium.git"           revision="master" clone-depth="1" remote="tfo" />
-        <project path="rmm"		     name="rmm"					  revision="qemu-rme" remote="jpb" />
+        <project path="rmm"		     name="rmm"					  revision="cca/rmm-v1.0-eac5" remote="jpb" />
         <project path="u-boot"               name="u-boot.git"                            revision="refs/tags/v2023.07.02" remote="u-boot" clone-depth="1" />
 </manifest>
