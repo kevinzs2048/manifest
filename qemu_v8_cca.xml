@@ -12,7 +12,7 @@
         <project path="optee_client"         name="OP-TEE/optee_client.git" />
         <project path="optee_os"             name="OP-TEE/optee_os.git" />
         <project path="optee_test"           name="OP-TEE/optee_test.git" />
-	<project path="build"                name="op-tee/build.git" revision="v1.0-eac5" remote="clo">
+	<project path="build"                name="kevinzs2048/build.git" revision="v1.0-eac5" remote="github">
                 <linkfile src="qemu_v8.mk" dest="build/Makefile" />
         </project>
 
