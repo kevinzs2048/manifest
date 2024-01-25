@@ -28,7 +28,7 @@
         <project path="mbedtls"              name="Mbed-TLS/mbedtls.git"                   revision="refs/tags/mbedtls-2.26.0" clone-depth="1" />
         <project path="optee_rust"           name="apache/incubator-teaclave-trustzone-sdk.git"            revision="4031e7282a8f398f54faa19acb2b84fab05de877" />
 	<project path="qemu"                 name="qemu"				  revision="cca/rmm-v1.0-eac5" remote="jpb" />
-	<project path="trusted-firmware-a"   name="tf-a/trusted-firmware-a.git"		  revision="v1.0-eac5" remote="clo" />
+	<project path="trusted-firmware-a"   name="tf-a"                                 revision="cca/rmm-v1.0-eac5" remote="jpb" />
         <project path="hafnium"   name="hafnium/hafnium.git"           revision="master" clone-depth="1" remote="tfo" />
         <project path="rmm"		     name="rmm"					  revision="cca/rmm-v1.0-eac5" remote="jpb" />
         <project path="u-boot"               name="u-boot.git"                            revision="refs/tags/v2023.07.02" remote="u-boot" clone-depth="1" />
